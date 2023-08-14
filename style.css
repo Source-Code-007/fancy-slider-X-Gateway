@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    width: 100%;
+    height: 80vh;
+    /* background-color: #fff; */
+    overflow: hidden;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.slider .slide {
+    width: 14%;
+    height: 100%;
+    border-radius: 8px;
+    background-position: center;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.5s ease-in-out;
+}
+.slider .active {
+    width: 70%;
+}
+
+/* .slider .slide .content{
+  transform: rotate(-90deg);
+  transform-origin: top center;
+}
+.slider .slide.active .content{
+    transform: rotate(0deg);
+} */
+
+
+
+.slider .active .numbering{
+    color: white;
+}
+
+.common-ul {
+    list-style: none;
+}
+.common-ul li{
+    padding: 5px 0;
+}
